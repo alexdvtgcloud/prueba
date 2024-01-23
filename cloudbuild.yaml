@@ -12,7 +12,7 @@ steps:
       - run
       - deploy
       - ${_SERVICE_NAME}
-      - --image=europe-west1-docker.pkg.dev/pr-sandboxapigee-alex/samara-website-backende/main:latest
+      - --image=europe-west1-docker.pkg.dev/pr-sandboxapigee-alex/samara-website-backend/main:latest
       - --region=europe-west1
       - --platform=managed
 
